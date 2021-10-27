@@ -1,9 +1,5 @@
-public class Paragraph implements Element {
-    private String text;
-
-    public Paragraph(String text) {
-        this.text=text;
-    }
+public class TableOfContents implements Element{
+    private String title;
 
     @Override
     public void add(Element e) {
@@ -22,6 +18,6 @@ public class Paragraph implements Element {
 
     @Override
     public void print() {
-        System.out.println("Paragraph: " + text);
+        System.out.print("Table: "+this.title);
     }
 }
