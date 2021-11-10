@@ -14,7 +14,7 @@ public class Book extends Section {
         this.Authors.add(name);
     }
 
-    public void add(Element e) {
+    public void addContent(Element e) {
         super.add(e);
     }
 
