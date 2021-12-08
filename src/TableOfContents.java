@@ -17,7 +17,12 @@ public class TableOfContents implements Element{
     }
 
     @Override
-    public void print() {
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
+
+    @Override
+    public void render() {
         System.out.print("Table: "+this.title);
     }
 }

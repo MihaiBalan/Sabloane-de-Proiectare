@@ -18,7 +18,7 @@ public class Book extends Section {
         super.add(e);
     }
 
-    public void print(){
+    public void render(){
         System.out.println("Book: "+ title +"\n");
         System.out.println("Authors:");
         for(Author A:Authors)

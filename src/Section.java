@@ -25,15 +25,22 @@ public class Section implements Element {
         return this.children.get(index);
     }
 
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+        for(Element e: children)
+        {
+            e.accept(v);
+        }
+    }
+
     public void printAux(){
         for(Element E:children)
-            E.print();
+            E.render();
     }
 
     @Override
-    public void print() {
-        System.out.println(this.title);
-        for(Element E:children)
-            E.print();
+    public void render() {
+        System.out.println("Section: " + this.title);
     }
 }

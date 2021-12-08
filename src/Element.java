@@ -6,6 +6,8 @@ public interface Element {
 
     Element get(int index);
 
-    void print();
+    void accept(Visitor v);
+
+    void render();
 }
 
