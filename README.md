@@ -13,3 +13,9 @@ all good
 https://github.com/MihaiBalan/Sabloane-de-Proiectare/tree/cca70cd40d9afbcd8330b4e0e859592a742ca27b
 
 all good
+
+# Feedback lab5:
+https://github.com/MihaiBalan/Sabloane-de-Proiectare/tree/f2b57bd88fa1e9e7551c29f4d86890064794b661
+
+- allignment paragraf OK
+- singleton - NOT implemented
