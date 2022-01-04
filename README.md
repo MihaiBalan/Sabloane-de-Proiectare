@@ -19,3 +19,10 @@ https://github.com/MihaiBalan/Sabloane-de-Proiectare/tree/f2b57bd88fa1e9e7551c29
 
 - allignment paragraf OK
 - singleton - NOT implemented
+
+# Feedback lab6:
+https://github.com/MihaiBalan/Sabloane-de-Proiectare/tree/a828d74a4832428ddd32b63c23b58ecfcb7436d3
+
+- no book statistics and no generate table of content
+
+# Proposed grade: 8.5
